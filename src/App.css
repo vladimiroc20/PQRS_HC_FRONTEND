@@ -1,0 +1,109 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #282c35;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #38404a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #61dafb;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #61dafb;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  background-color: #ffffff;
+  color: #030303;
+  border-radius: 4px;
+}
+
+
+button {
+  background-color: #61dafb;
+  color: rgb(0, 0, 0);
+  padding:15px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  display: block; /* Hace que el botón sea un elemento de bloque para centrarlo */
+  margin: 0 auto; /* Centra el botón horizontalmente */
+}
+
+button:hover {
+  background-color: #6bc3f3;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  background-color: #47525e;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: #276862;
+}
+
+strong {
+  color: #61dafb;
+}
+
+.list-container{
+  margin-top: 50px;
+}
+.list-container {
+  margin-top: 20px; /* Ajusta la cantidad de espacio según tus preferencias */
+  border-top: 2px solid #61dafb; /* Línea que separa el formulario del listado */
+  padding-top: 20px; /* Ajusta el espacio superior de la línea según tus preferencias */
+}
+
+.form-container {
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.pqr-item {
+  background-color: #47525e;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pqr-item:hover {
+  background-color: #276862;
+}
+
